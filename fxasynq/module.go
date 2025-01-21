@@ -21,7 +21,7 @@ var FxAsynqModule = fx.Module(
 type FxAsynqClientParam struct {
 	fx.In
 	LifeCycle fx.Lifecycle
-	client *redis.Client
+	client    *redis.Client
 }
 
 // NewFxAsynqClient returns a new [asynq.Client].

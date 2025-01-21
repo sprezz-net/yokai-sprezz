@@ -1,4 +1,4 @@
-module fxasynq
+module github.com/sprezz-net/yokai-sprezz/fxasynq
 
 go 1.23.5
 
