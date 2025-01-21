@@ -10,7 +10,7 @@ the [Sprezz](https://github.com/sprezz-net/) project.
 
 | Module                             | Description                                                              |
 |------------------------------------|--------------------------------------------------------------------------|
-|                                    |                                                                          |
+| [fxasynq](fxasynq)                 | Module for [Asynq](https://github.com/hibiken/asynq)                     |
 
 ## Contributing
 
