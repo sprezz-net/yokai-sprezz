@@ -21,10 +21,10 @@ var FxAsynqModule = fx.Module(
 type FxAsynqClientParam struct {
 	fx.In
 	LifeCycle fx.Lifecycle
-	client    *redis.Client
+	Client    *redis.Client
 }
 
 // NewFxAsynqClient returns a new [asynq.Client].
 func NewFxAsynqClient(p FxAsynqClientParam) *asynq.Client {
-	return asynq.NewClientFromRedisClient(p.client)
+	return asynq.NewClientFromRedisClient(p.Client)
 }
